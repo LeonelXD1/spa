@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA - Todos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Romanesco&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="header-container">
+            <nav>
+                <ul>
+                    <li><a href="#">PROMOCIONES</a></li>
+                    <li><a href="#">FOTOS</a></li>
+                    <li><a href="#">SERVICIOS</a></li>
+                    <li><a href="#">MAPA</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+        <div class="header-icons">
+        <div class="user-section">
+            <img src="imagenes/user.png" alt="Usuario" class="icon icon-usuario">
+            <span class="account-text">Mi cuenta</span>
+        </div>
+            <img src="imagenes/flag.png" alt="Bandera" class="icon icon-bandera">
+            <img src="imagenes/arrow.png" alt="Flecha" class="icon icon-flecha">
+        </div>
+        </div>
+    </header>
+
+    <!-- Sección pagina-inicial -->
+    <section class="pagina-inicial">
+        <div class="titulo-paginaInicial">SPA - Todos</div>
+        <div class="fuente-Titulo2"> 
+            Regálate un momento de paz <br>
+            y consiente a tu piel en el mejor lugar
+        </div>
+    </section>
+
+    <!-- Sección de Reserva -->
+    <section class="reserva">
+        <div class="reserva-simple">
+            <span>RESERVA TU CITA:</span>
+            <input type="text">
+            <span>CÓDIGO PROMOCIONAL:</span>
+            <input type="text" placeholder="CÓDIGO">
+        </div>
+    </section>
+
+        <!-- Sección de Servicios -->
+    <section class="servicios">
+        <div class="container">
+            <div class="servicios-fila">
+                
+                <!-- Masaje de pies -->
+                <div class="servicio-card">
+                    <div class="servicio-header" style="background-color: #A3A656;">
+                        <h3>Masaje de pies</h3>
+                    </div>
+                    <div class="servicio-imagen">
+                        <img src="imagenes/pies.png" alt="Masaje de pies">
+                    </div>
+                    <div class="servicio-descripcion">
+                        <p>Esta es una descripción de la opción en cuestión .....</p>
+                    </div>
+                    <div class="servicio-footer">
+                        <div class="servicio-precio">$65</div>
+                        <button class="btn-reservar">RESERVAR</button>
+                    </div>
+                </div>
+                
+                <!-- Masaje relajante -->
+                <div class="servicio-card">
+                    <div class="servicio-header" style="background-color: #A3A656;">
+                        <h3>Masaje relajante</h3>
+                    </div>
+                    <div class="servicio-imagen">
+                        <img src="imagenes/relajante.png" alt="Masaje relajante">
+                    </div>
+                    <div class="servicio-descripcion">
+                        <p>Esta es una descripción de la opción en cuestión .....</p>
+                    </div>
+                    <div class="servicio-footer">
+                        <div class="servicio-precio">$60</div>
+                        <button class="btn-reservar">RESERVAR</button>
+                    </div>
+                </div>
+                
+                <!-- Masaje con bambú -->
+                <div class="servicio-card">
+                    <div class="servicio-header" style="background-color: #A3A656;">
+                        <h3>Masaje con bambú</h3>
+                    </div>
+                    <div class="servicio-imagen">
+                        <img src="imagenes/bambu.png" alt="Masaje con bambú">
+                    </div>
+                    <div class="servicio-descripcion">
+                        <p>Esta es una descripción de la opción en cuestión .....</p>
+                    </div>
+                    <div class="servicio-footer">
+                        <div class="servicio-precio">$58</div>
+                        <button class="btn-reservar">RESERVAR</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+        <!-- Sección de Membresías -->
+    <section class="membresias">
+        <div class="container">
+            <h2 class="titulo-membresias">Hazte socio y prueba nuestros beneficios</h2>
+            <div class="membresias-grid">
+                
+                <!-- Membresía GOLD -->
+                <div class="membresia-card">
+                    <div class="membresia-circulo">
+                        <div class="circulo-exterior">
+                            <div class="circulo-interior">
+                                <img src="imagenes/gold.png" alt="Membresía Gold">
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="membresia-titulo">GOLD</h3>
+                    <button class="btn-condiciones">VER CONDICIONES</button>
+                    <div class="membresia-beneficios">
+                        <ul>
+                            <li>Gimnasio</li>
+                            <li>Piscina</li>
+                            <li>Todos los tratamientos</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Membresía PREMIUM -->
+                <div class="membresia-card">
+                    <div class="membresia-circulo">
+                        <div class="circulo-exterior">
+                            <div class="circulo-interior">
+                                <img src="imagenes/premium.png" alt="Membresía Premium">
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="membresia-titulo">PREMIUM</h3>
+                    <button class="btn-condiciones">VER CONDICIONES</button>
+                    <div class="membresia-beneficios">
+                        <ul>
+                            <li>Gimnasio</li>
+                            <li>Todos los tratamientos</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Membresía PLATE -->
+                <div class="membresia-card">
+                    <div class="membresia-circulo">
+                        <div class="circulo-exterior">
+                            <div class="circulo-interior">
+                                <img src="imagenes/plate.png" alt="Membresía Plate">
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="membresia-titulo">PLATE</h3>
+                    <button class="btn-condiciones">VER CONDICIONES</button>
+                    <div class="membresia-beneficios">
+                        <ul>
+                            <li>Tratamientos faciales</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <!-- Enlaces -->
+            <div class="footer-links">
+                <a >POLITICAS DE COOKIES</a>
+                <a >AVISO LEGAL</a>
+                <a >PROTECCIÓN DE DATOS</a>
+                <a >MAPA DEL SITIO</a>
+            </div>
+            
+            <!-- Texto SÍGUENOS EN -->
+            <div class="siguenos-texto">
+                <span>SÍGUENOS EN</span>
+            </div>
+            
+            <!-- Imágenes de redes sociales -->
+            <div class="redes-sociales">
+                <img src="imagenes/rs_facebook.png" alt="Facebook">
+                <img src="imagenes/rs_twiter.png" alt="Twitter">
+                <img src="imagenes/rs_youtube.png" alt="YouTube">
+                <!-- Agrega más imágenes según necesites -->
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
