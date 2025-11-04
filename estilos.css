@@ -15,7 +15,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.fuente-Titulo2{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 32px;
+}
+.lenguaje-texto {
+  position: absolute;
+  top: 4.5%;          /* Ajusta según tu diseño */
+  left: 93%;          /* Justo a la izquierda de la bandera */
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: var(--color-text);
+}
 body {
     font-family: 'Inter', sans-serif;
     color: var(--color-text);
@@ -447,8 +460,8 @@ footer {
 .siguenos-texto {
     color: #A3A656;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: normal;
+    font-size: 16px;
     white-space: nowrap;
     margin-left: auto;
 }
